@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 html,body {
@@ -16,29 +18,30 @@ html,body {
 }
 
 #page {
+    position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #fffef8;
 }
 
 #page1 {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #fffef8;
 }
 
 #page2 {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #fffef8;
 }
 #page3 {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #fffef8;
 }
 
 canvas {
@@ -54,10 +57,9 @@ canvas {
     top: 30%;
     height: 25%;
     width: 100%;
-    background-color: red;
+    background-color: #fffdfa;
     font-size: 100px;
     white-space: nowrap;
-    font-family: gilroy;
 }
 
 #loop>h1{
@@ -69,7 +71,7 @@ canvas {
 }
 
 #loop>h1>span{
-    -webkit-text-stroke-color:  1.2px #000;
+    -webkit-text-stroke: 1.2px #000;
     color: transparent;
     font-weight: 500;
 }
@@ -96,7 +98,6 @@ canvas {
 }
 
 #nav>h3 {
-    font-family: gilroy;
     font-weight: 800;
     font-size: 22px;
 }
@@ -111,32 +112,33 @@ canvas {
 
 #page>h3 {
     position: absolute;
-    top: 55%;
-    font-family: gilroy;
+    top: 60%;
     font-weight: 400;
-    color: gray;
+    color: #7c7c7c;
     left: 5%;
 }
 
 #page>h4 {
+    text-align: end;
     position: absolute;
-    top: 62%;
-    left: 26%;
+    top: 68%;
+    right: 10%;
     font-weight: 500;
 }
 
 #page1>#right-text {
     position: absolute;
     top: 30%;
+    left: 8%;
 }
 
 #page1>#right-text>h3 {
     font-weight: 400;
-    color: gray;
+    color: #7c7c7c;
 }
 
 #page1>#right-text>h1 {
-    line-height: 1.5;
+    line-height: 0.9;
     font-size: 50px;
     left: 10%;
 }
@@ -144,13 +146,15 @@ canvas {
 #page1>#left-text{
     position: absolute;
     top: 50%;
-    right: 10%;
+    right: 8%;
     text-align: end;
 }
 
 #page1>#left-text>h1 {
-    font-size: 50px;
-    line-height: 1.5;
+    font-size: 70px;
+    line-height: 1;
+    -webkit-text-stroke: 1.2px #000;
+    color: transparent;
 }
 
 #page1>#left-text>h3 {
@@ -199,5 +203,6 @@ canvas {
 }
 
 #page3>#text-3>h1 {
-    font-size: 70px;
+    font-size: 50px;
+    line-height: 1;
 }
